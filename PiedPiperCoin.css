@@ -1,0 +1,219 @@
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+article, p, div, h2 {
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #e5e5e5;
+    background-size: cover;
+}
+
+.page-container {
+    width: 1219px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.header {
+    position: sticky;
+    padding-left: 55px;
+    padding-right: 55px;
+    max-width: 100%;
+    top: 0; 
+    margin: 0 auto;
+    height: 84px;
+    background-color: #007765;  
+}
+
+.header__logo {
+    position: absolute;
+    top: 20px;
+    bottom: 19px;
+}
+
+.header__contents {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 28px;
+    right: 55px;
+    color: #ffffff; 
+}
+
+.header__contents a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header__contents a:hover {
+    color: #97cff0;
+}
+
+.promo {
+    background-image: url(./content/PiperNet_background.svg);
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.promo__text {
+    font-size: 72px;
+    padding: 160px 0;
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.intro {
+    background-color: #eee;
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.intro__topic {
+    font-size: 64px;
+    padding-top: 48px;
+    padding-bottom: 31px;
+    color: #007765;
+    text-align: center;
+}
+
+.intro__text {
+    font-size: 32px;
+    text-align: left;
+    padding-bottom: 88px;
+    margin: 0;
+}
+
+.hero-call {
+    background-image: url(./content/hero-call__background.svg);
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.hero-call__text {
+    font-size: 48px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+    padding: 132px 85px 131px 85px;
+    text-align: center;
+}
+
+.intro-ppc {
+    background-color: #fff;
+}
+
+.intro-ppc__coin-name {
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.intro-ppc__logo {
+    float: left;
+    padding-right: 48px;
+}
+
+.intro-ppc__text {
+    font-size: 32px;
+    text-align: left;
+    padding-bottom: 92px;
+}
+
+.members-box {
+    background-color: #eee;
+    background-size: cover;
+    padding-top: 48px;
+    padding-bottom: 79px;
+    text-align: center;
+    clear: both;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -82px;
+    visibility: hidden;
+}
+
+.the-team {
+    margin: 0 auto 32px;
+    
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.member-card {
+    display: inline-block;
+    width: 350px;
+    height: 283px;
+    text-align: center;
+}
+
+.member-card__name {
+    color: #007765;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.member-card__job-title {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #333;
+    background-size: cover;
+}
+
+.footer__text {
+    font-size: 18px;
+    color: #fff;
+    padding: 48px 0 64px;
+    text-align: center;
+}
+
+@media screen and (min-width: 2010px){
+    .page-container {
+        width: 2011px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 450px;
+        padding-right: 450px;
+    }
+    
+    .header {
+        padding-left: 450px;
+        padding-right: 450px;
+        max-width: 100%;
+        top: 0; 
+        margin: 0 auto;
+        height: 84px;
+        background-color: #007765;  
+}
+    .header__contents {
+        right: 450px;      
+}
+
+    .hero-call__text {
+        padding: 132px 108px 131px 108px;
+    }
+}
